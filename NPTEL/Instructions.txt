@@ -1,0 +1,6 @@
+Just run the script as python. It has it's own terminal interface.
+
+```
+python nptel_spider.py --> If windows.
+python3 nptel_spider.py --> If linux.
+```

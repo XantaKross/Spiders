@@ -1,0 +1,22 @@
+For using spotify_spider.py
+1. Go to spotify developers page - https://developer.spotify.com/
+2. Create account, get your client_id, client_secret and setup your localhost address.
+3. Open spotify_spider.py and edit the strings as needed.
+4. Save it and run it as
+
+```
+python spotify_spider.py --> windows
+python3 spotify_spider.py --> linux
+```
+
+
+For using scrappy_spider.py:
+1. spotify_spider.py will recieve all your data and save it in proper files.
+2. Inside the "spotify_lists_out" folder created by the script find the "1_my_songs.csv" file.
+3. Copy it's path and edit the scrappy_spider.py file's CSV_PATH variable.
+4. Run it as a python script using:
+
+```
+python scrappy_spider.py --> windows
+python3 scrappy_spider.py --> linux
+```
